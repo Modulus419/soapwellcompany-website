@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soap Well Global Resources | Premium Chemical & Packaging Supplier</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+
+
+        :root {
+            --primary: #ffffff;
+            --secondary: #007bff;
+            --accent: #00bfff;
+            --light: #0080ff;
+            --dark: #343a40;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; color: #333; line-height: 1.6; background: rgb(255, 255, 255); }
+        a { text-decoration: none; }
+
+        /* Navigation */
+        nav {
+            background: var(--primary);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+        .logo { color: white; font-size: 1.8rem; font-weight: 700; }
+        .nav-links a {
+            color: white;
+            margin-left: 2rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover { color: var(--accent); }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,77,153,0.8), rgba(0,77,153,0.9)), url('https://www.alphaaromatics.com/wp-content/uploads/2018/12/Aromatic-Sources-Fragrant-Compounds-Perfumery.jpg') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(0, 102, 255);
+            padding: 0 2rem;
+        }
+        .hero-content h1 { font-size: 3.5rem; margin-bottom: 1rem; }
+        .hero-content p { font-size: 1.3rem; max-width: 800px; margin: auto; margin-bottom: 2rem; }
+        .btn { background: var(--accent); color: white; padding: 12px 30px; border-radius: 50px; font-weight: 600; transition: 0.3s; }
+        .btn:hover { background: #00a0d8; transform: translateY(-3px); }
+
+        /* Sections */
+        section { padding: 80px 20px; max-width: 1200px; margin: auto; }
+        h2 { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: var(--primary); }
+        .about-text { text-align: center; font-size: 1.1rem; max-width: 900px; margin: auto; }
+
+        /* Products Grid */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .product-card {
+            background: rgb(4, 166, 198);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        .product-card img { width: 100%; height: 220px; object-fit: cover; }
+        .card-content { padding: 20px; text-align: center; }
+        .card-content h3 { margin: 15px 0; color: var(--primary); }
+
+        /* Contact */
+        .contact-info {
+            background: var(--light);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+        }
+        .contact-info i { color: var(--secondary); font-size: 1.5rem; margin-right: 10px; }
+        form { max-width: 600px; margin: 2rem auto 0; }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: inherit;
+        }
+        textarea { height: 150px; }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1s ease, transform 1s ease;
+        }
+        .fade-in.visible { opacity: 3; transform: translateY(0); }
+
+        @media (max-width: 768px) {
+            .hero-content h1 { font-size: 2.5rem; }
+            .nav-links { display: none; } /* Add mobile menu if needed later */
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">SOAP WELL</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="editz.html">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>SOAP WELL GLOBAL RESOURCES</h1>
+            <p>Your Premier Supplier of High-Quality Chemicals, Perfume Production Materials, and Packaging Solutions</p>
+            <a href="#contact" class="btn">Get a Quote Today</a>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>About Us</h2>
+        <p class="about-text">Soap Well Global Resources is a trusted leader in supplying premium raw materials for perfume production, soaps, detergents, cosmetics, and industrial applications. We offer reliable, high-quality packaging materials and chemicals to businesses across Nigeria and internationally. With a focus on quality, affordability, and exceptional customer service, we help your business thrive.</p>
+    </section>
+
+    <section id="products" class="fade-in">
+        <h2>Our Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/81zf1e93PYL._AC_UF1000,1000_QL80_.jpg" alt="Aroma & Fragrance Chemicals">
+                <div class="card-content">
+                    <h3>Aroma & Fragrance Chemicals</h3>
+                    <p>Premium essential oils, fixatives, and aroma compounds for professional perfume creation.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://naturalnicheperfume.com/wp-content/uploads/botanical-extracts-in-natural-perfumery.jpg" alt="Perfume Production Raw Materials">
+                <div class="card-content">
+                    <h3>Perfume Production Materials</h3>
+                    <p>High-grade alcohol bases, solvents, and specialty ingredients for fragrance manufacturing.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://rigidboxes.in/wp-content/uploads/2024/09/premium-perfume-packaging-boxes-1024x585.jpg" alt="Packaging Materials">
+                <div class="card-content">
+                    <h3>Packaging Materials</h3>
+                    <p>Luxury bottles, custom boxes, caps, labels, and complete packaging solutions.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://cms.ar-racking.com/uploads/2021/02/almacenar-productos-quimicos-2.jpg" alt="Industrial Chemicals">
+                <div class="card-content">
+                    <h3>Industrial Chemicals</h3>
+                    <p>Reliable raw materials for soaps, detergents, and industrial applications.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://camachem.com/pub/media/magefan_blog/Top_10_Chemicals_Used_in_Soap_Detergent_Industry2.jpg" alt="Cosmetic & Detergent Chemicals">
+                <div class="card-content">
+                    <h3>Cosmetic & Detergent Chemicals</h3>
+                    <p>Surfactants, emulsifiers, preservatives, and specialized cosmetic ingredients.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/71ArI+O1WtL._AC_UF894,1000_QL80_.jpg" alt="Perfume Bottles & Accessories">
+                <div class="card-content">
+                    <h3>Perfume Bottles & Accessories</h3>
+                    <p>Elegant glass bottles, spray pumps, and premium packaging accessories.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> <strong>CEO Phone:</strong> 08130375566</p>
+            <p><i class="fas fa-envelope"></i> <strong>Email:</strong> soapwelllimitedcompany@gmail.com</p>
+            <p>We respond promptly to all inquiries. Get in touch for quotes, orders, or partnerships!</p>
+
+            <!-- Free contact form using Formspree (sign up at formspree.io for your email) -->
+            <form action="https://formspree.io/f/your-form-id-here" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="phone" placeholder="Your Phone">
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <small>To activate the form, sign up free at <a href="https://formspree.io/" target="_blank">formspree.io</a> and replace "your-form-id-here" with your endpoint.</small>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Soap Well Global Resources. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Simple fade-in on scroll
+        const fadeElems = document.querySelectorAll('.fade-in');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        fadeElems.forEach(elem => observer.observe(elem));
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
